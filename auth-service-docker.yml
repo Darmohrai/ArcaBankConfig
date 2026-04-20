@@ -2,7 +2,7 @@ spring:
   datasource:
     url: jdbc:postgresql://arcabank_db:5432/arcabank_auth
     username: postgres
-    password: "{cipher}f11a4d889a33e27c9275bdcad689d394a520efd3d18b83e4b4e4ffde60b0b44a"
+    password: "{cipher}f2d0fbdb1168e52ffef37ac9480efd4416250e0a0b7ab7d7bc33a8dd692bcf4d"
   security:
     oauth2:
       resourceserver:
