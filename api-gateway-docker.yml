@@ -1,0 +1,14 @@
+spring:
+  cloud:
+    gateway:
+      routes:
+        - id: core-finance-route
+          uri: http://arcabank_core-service:8088
+        - id: auth-service-route
+          uri: http://arcabank_auth:8081
+
+  security:
+    oauth2:
+      resourceserver:
+        jwt:
+          issuer-uri: http://arcabank_keycloak:8080/realms/arcabank

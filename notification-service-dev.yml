@@ -1,0 +1,8 @@
+spring:
+  datasource:
+    url: jdbc:postgresql://localhost:5433/arcabank_notif
+    username: arcabank_admin
+    password: SuperSecretDbPassword2026!
+
+  kafka:
+    bootstrap-servers: localhost:9092

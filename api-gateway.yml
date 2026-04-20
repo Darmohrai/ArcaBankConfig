@@ -1,0 +1,16 @@
+server:
+  port: 8080
+
+spring:
+  main:
+    web-application-type: reactive
+  cloud:
+    gateway:
+      routes:
+        - id: core-finance-route
+          predicates:
+            - Path=/api/v1/transfers/**, /api/v1/vaults/**
+
+        - id: auth-service-route
+          predicates:
+            - Path=/api/v1/auth/**

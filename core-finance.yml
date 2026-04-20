@@ -1,0 +1,13 @@
+server:
+  port: 8088
+
+grpc:
+  server:
+    port: 9098
+
+spring:
+  application:
+    name: core-finance
+  sql:
+    init:
+      mode: always
