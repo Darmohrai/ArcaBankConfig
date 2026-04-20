@@ -1,6 +1,6 @@
 spring:
   datasource:
-    url: jdbc:postgresql://postgres:5432/arcabank_auth
+    url: jdbc:postgresql://arcabank_db:5432/arcabank_auth
     username: postgres
     password: "{cipher}f11a4d889a33e27c9275bdcad689d394a520efd3d18b83e4b4e4ffde60b0b44a"
   security:
@@ -10,5 +10,5 @@ spring:
           issuer-uri: http://arcabank_keycloak:8080/realms/arcabank
 
 keycloak:
-  server-url: http://keycloak:8080
+  server-url: http://arcabank_keycloak:8080
   client-secret: "{cipher}917f4a66bf533b7fecf65c6eebc747ae3524dcc1db253452c709b3700be60991"
