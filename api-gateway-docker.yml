@@ -4,8 +4,13 @@ spring:
       routes:
         - id: core-finance-route
           uri: http://arcabank_core-service:8088
+          predicates:
+            - Path=/api/v1/transfers/**, /api/v1/vaults/**
+
         - id: auth-service-route
           uri: http://arcabank_auth:8081
+          predicates:
+            - Path=/api/v1/auth/**
 
   security:
     oauth2:
