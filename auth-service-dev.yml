@@ -11,5 +11,5 @@ spring:
 
 keycloak:
   server-url: http://localhost:8180
-  client-secret: admin
+  client-secret: "arcabank-super-secret-key-123"
 
