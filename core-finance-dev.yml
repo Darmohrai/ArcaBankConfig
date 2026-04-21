@@ -1,8 +1,8 @@
 spring:
   datasource:
     url: jdbc:postgresql://localhost:5433/arcabank_core
-    username: arcabank_admin
-    password: SuperSecretDbPassword2026!
+    username: postgres
+    password: postgres
   security:
     oauth2:
       resourceserver:
