@@ -1,6 +1,6 @@
 spring:
   datasource:
-    url: jdbc:postgresql://db:5432/arcabank_notif
+    url: jdbc:postgresql://arcabank_db:5432/arcabank_notif
     username: postgres
     password: "{cipher}f2d0fbdb1168e52ffef37ac9480efd4416250e0a0b7ab7d7bc33a8dd692bcf4d"
 
