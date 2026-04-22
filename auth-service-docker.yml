@@ -7,8 +7,8 @@ spring:
     oauth2:
       resourceserver:
         jwt:
-          issuer-uri: http://arcabank_keycloak:8080/realms/arcabank
+          issuer-uri: http://keycloak:8080/realms/arcabank
 
 keycloak:
-  server-url: http://arcabank_keycloak:8080
+  server-url: http://keycloak:8080
   client-secret: "arcabank-super-secret-key-123"

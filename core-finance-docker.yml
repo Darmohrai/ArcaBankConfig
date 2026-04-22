@@ -7,7 +7,7 @@ spring:
     oauth2:
       resourceserver:
         jwt:
-          issuer-uri: http://arcabank_keycloak:8080/realms/arcabank
+          issuer-uri: http://keycloak:8080/realms/arcabank
 
 logging:
   level:
