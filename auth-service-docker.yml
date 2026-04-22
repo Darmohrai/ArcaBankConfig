@@ -12,3 +12,8 @@ spring:
 keycloak:
   server-url: http://keycloak:8080
   client-secret: "arcabank-super-secret-key-123"
+
+grpc:
+  client:
+    core-finance-client:
+      address: 'static://core-service:9098'

@@ -13,3 +13,8 @@ keycloak:
   server-url: http://localhost:8180
   client-secret: "arcabank-super-secret-key-123"
 
+grpc:
+  client:
+    core-finance-client:
+      address: 'static://localhost:9098'
+      negotiation-type: plaintext
