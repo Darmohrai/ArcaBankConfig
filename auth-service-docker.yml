@@ -16,4 +16,4 @@ keycloak:
 grpc:
   client:
     core-finance-client:
-      address: 'static://core-service:9098'
+      address: 'static://arcabank_core-service:9098'
