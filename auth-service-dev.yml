@@ -17,3 +17,4 @@ grpc:
   client:
     core-finance-client:
       address: 'static://localhost:9098'
+      negotiation-type: PLAINTEXT
