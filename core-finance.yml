@@ -11,3 +11,10 @@ spring:
   sql:
     init:
       mode: always
+
+arcabank:
+  iban:
+    country-code: "UA"
+    bank-code: "305299"
+  defaults:
+    account-type: "CHECKING"
