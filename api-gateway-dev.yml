@@ -17,3 +17,9 @@ spring:
       resourceserver:
         jwt:
           issuer-uri: http://localhost:8180/realms/arcabank
+
+arcabank:
+  cors:
+    allowed-origins:
+      - "http://localhost:4200" #change for production
+      - "http://127.0.0.1:4200"
