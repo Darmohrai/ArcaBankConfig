@@ -5,7 +5,7 @@ spring:
         - id: core-finance-route
           uri: http://localhost:8088
           predicates:
-            - Path=/api/v1/transfers/**, /api/v1/vaults/**, /api/v1/accounts/**
+            - Path=/api/v1/transfers/**, /api/v1/vaults/**, /api/v1/accounts/**, /api/v1/cards/**
 
         - id: auth-service-route
           uri: http://localhost:8081
