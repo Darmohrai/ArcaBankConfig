@@ -18,3 +18,14 @@ arcabank:
     bank-code: "305299"
   defaults:
     account-type: "CHECKING"
+
+bank:
+  integration:
+    nbu:
+      url: "https://bank.gov.ua/NBUStatService/v1/statdirectory"
+      json: "/exchange?json"
+
+  exchange:
+    margin: 0.015
+    supported-currencies: USD, EUR
+    cron: "0 0 1 * * ?"

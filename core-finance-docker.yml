@@ -13,3 +13,8 @@ logging:
   level:
     org.springframework.jdbc.core.JdbcTemplate: INFO
     org.springframework.jdbc.core.simple.JdbcClient: INFO
+
+bank:
+  integration:
+    auth-service:
+      url: "http://arcabank_auth:8081"
