@@ -11,6 +11,11 @@ spring:
           uri: http://localhost:8081
           predicates:
             - Path=/api/v1/auth/**
+          
+        - id: notification-service-route
+          uri: http://auth-service:8082
+          predicates:
+            - Path=/ws-notifications
 
   security:
     oauth2:
