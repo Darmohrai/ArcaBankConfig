@@ -19,4 +19,4 @@ logging:
 bank:
   integration:
     auth-service:
-      url: "http://arcabank_auth:8081"
+      url: "http://arcabank-auth:8081"
