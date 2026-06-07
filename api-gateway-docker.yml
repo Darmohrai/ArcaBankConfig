@@ -5,7 +5,7 @@ spring:
         - id: core-finance-route
           uri: http://core-service:8088
           predicates:
-            - Path=/api/v1/transfers/**, /api/v1/vaults/**, /api/v1/accounts/**, /api/v1/cards/**, /api/v1/transactions/**
+            - Path=/api/v1/transfers/**, /api/v1/vaults/**, /api/v1/accounts/**, /api/v1/cards/**, /api/v1/transactions/**б, /api/v1/chests/**
         - id: auth-service-route
           uri: http://auth-service:8081
           predicates:
