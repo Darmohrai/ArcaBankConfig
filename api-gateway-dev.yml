@@ -15,7 +15,7 @@ spring:
         - id: notification-service-route
           uri: http://auth-service:8082
           predicates:
-            - Path=/ws-notifications
+            - Path=/ws-notifications/**
 
   security:
     oauth2:
