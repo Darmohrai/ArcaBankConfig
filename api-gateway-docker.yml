@@ -14,8 +14,6 @@ spring:
           uri: http://notification-service:8082
           predicates:
             - Path=/ws-notifications/**
-          filters:
-            - StripPrefix=1
   security:
     oauth2:
       resourceserver:
