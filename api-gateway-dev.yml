@@ -16,6 +16,8 @@ spring:
           uri: http://auth-service:8082
           predicates:
             - Path=/ws-notifications/**
+          filters:
+            - StripPrefix=1
 
   security:
     oauth2:
